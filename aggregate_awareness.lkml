@@ -1,6 +1,5 @@
-Below is a complex example using all of the concepts at once. Let's imagine we have user-level information and our measure is sensitive to whether or not it is grouped by user_id. We already have an existing daily summary of this information, but we want Looker to summarize by month. We also need a daily and monthly summarization at the user level. The end user should choose whether user_id is respected in the aggregation totals.
-
-For this purpose, we could write code like the following:
+##Below is a complex example using all of the concepts at once. Let's imagine we have user-level information and our measure is sensitive to whether or not it is grouped by user_id. We already have an existing daily summary of this information, but we want Looker to summarize by month. We also need a daily and monthly summarization at the user level. The end user should choose whether user_id is respected in the aggregation totals.
+##For this purpose, we could write code like the following:
 
 view: event_facts_monthly {
  derived_table: {
