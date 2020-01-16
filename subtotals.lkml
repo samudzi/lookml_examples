@@ -1,7 +1,7 @@
 ###Subtotals
 
 
-#The Model
+#The Model.
 explore: order_items {
   # Join other views as usual.
   join: products {
